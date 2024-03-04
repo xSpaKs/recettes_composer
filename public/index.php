@@ -30,6 +30,5 @@ $recipeId = $storage->store($recipe);
 print_r($storage->get($recipeId));
 // Update a recipe
 $recipe = $storage->get(1);
-$recipe->setComplete();
 $storage->update($recipe);
 
